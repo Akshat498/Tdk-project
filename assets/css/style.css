@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(./root.css);
 
@@ -36,7 +35,7 @@
     background-color: var(--fc-blue-light);
 }
 
-.nav-full{
+.nav-full {
     background-color: var(--fc-blue-light);
     width: 100%;
 }
@@ -53,19 +52,20 @@
     align-items: center;
 }
 
-.nav-ul{
+.nav-ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
-.logo-full{
+.logo-full {
     background-color: var(--fc-dark-blue);
 }
 
 .gap-33 {
     gap: 34px;
+    padding-left: 18px;
 }
 
 .pt-44 {
@@ -216,9 +216,10 @@
 }
 
 @media (max-width:992px) {
-    .menu-icon{
-        background-color:var(--fc-dark-blue);
+    .menu-icon {
+        background-color: var(--fc-dark-blue);
     }
+
     .links {
         flex-direction: column;
         justify-content: center;
@@ -302,11 +303,20 @@
     }
 
 }
+@media (max-width:992px) {
+
+    .text{
+        max-width: 315px;
+    }
+}
+
+@media (max-width:431px) {
+    
+}
 
 @media (min-width:768px) {
     .heading {
         margin-top: 80px;
-        margin-bottom: 53px;
     }
 
     .pt-lg-57 {
@@ -337,10 +347,71 @@
     .search-icon {
         width: 257px;
     }
+
+    .bg-img {
+        height: 930px;
+    }
 }
 
 @media (max-width:576px) {
+    .tdk-img {
+        max-width: 279px;
+    }
+ 
+     .text {
+         max-width: 318px;
+     }
+}
+
+@media (max-width:1200px) {
+    .bg-img {
+        height: 1061px;
+    }
+    .heading{
+        max-width: 814px;
+    }
+
+    .text {
+        max-width: 437px;
+    }
+}
+
+@media (max-width:992px) {
+    .bg-img {
+        height: 00px;
+    }
+
+    .heading{
+        max-width: 514px;
+    }
+
+    .text{
+        max-width: 280px;
+    }
+}
+
+@media (max-width:375px) {
     .tdk-img{
-    max-width: 279px;
+        max-width: 240px;
+    }
+}
+
+@media (max-width:450px) {
+    .bg-img {
+        height: 603.26px;
+    }
+
+    .heading {
+       max-width: 333px;
+    }
+
+    .text {
+        max-width: 318px;
+    }
+}
+
+@media (max-width:399.9px) {
+    .heading{
+        max-width: 533px;
     }
 }
