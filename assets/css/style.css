@@ -351,6 +351,10 @@
     .bg-img {
         height: 930px;
     }
+
+    .search-icon{
+        margin-top: 10px;
+    }
 }
 
 @media (max-width:576px) {
